@@ -18,7 +18,7 @@ How to use
    3. Configure MsgPackUnpack
 ```java
       	//structure
-      	class Line implement IDictPicker, IListPicker{
+      	class Line implements IDictPicker, IListPicker{
       	
       	}
       	
@@ -41,6 +41,7 @@ How to use
 		});
 ```
    4. pack or unpack
-   
+```java
 	      ByteBuffer bb = MsgPack.pack(Object obj);
     	  Object obj = MsgPack.unpack(byte[] bytes);
+```
