@@ -8,7 +8,7 @@ Feature
 ---
 
 1. supports int, long, String, Boolean, array, hashtable
-2. able to customs array and hashtable(implements IDictPicker or IListPicker)
+2. able to custom array and hashtable(implements IDictPicker or IListPicker)
 
 
 How to use
