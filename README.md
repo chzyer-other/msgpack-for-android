@@ -16,7 +16,7 @@ How to use
    1. Modify the package name(default: org.chenye.andfree.msgpack)
    2. Implements data structures(list, dict)
    3. Configure MsgPackUnpack
-   
+```java
       	//structure
       	class Line implement IDictPicker, IListPicker{
       	
@@ -39,6 +39,7 @@ How to use
 				return new Line();
 			}
 		});
+```
    4. pack or unpack
    
 	      ByteBuffer bb = MsgPack.pack(Object obj);
