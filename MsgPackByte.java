@@ -112,7 +112,7 @@ public class MsgPackByte extends DynamicByte{
 	}
 	
 	public int putString(String str){
-		int a = str.length();
+		int a = str.getBytes().length();
 		int header = 0;
 		int pos;
 		if (a <= P4_1){
